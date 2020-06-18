@@ -14,6 +14,7 @@ img{
 .brac{
     float: right;
     margin-left: 270px;
+    margin-top: 10px;
 }
 .one{
     display: flex;
