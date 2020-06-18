@@ -13,34 +13,45 @@ img{
 }
 .brac{
     float: right;
-    margin-left: 300px;
+    margin-left: 270px;
 }
 .one{
     display: flex;
     margin-left: 25px;
     text-align: center;
 }
-.budu{
-    border-radius: 50px;
-    vertical-align: middle;
-    margin-left: 5px;
-}
 hr{
     height: 1.5px;
     background-color: grey;
     border-radius: 10px;
     text-align: center;
+    margin: 0rem 0.5rem 0rem 0.5rem;
 }
 .name{
     margin-left: 20px;
 }
 .price{
-    border-color: rgb(70, 204, 228);
+    border-color: rgb(66, 107, 243);
     width: 80px;
     margin-left: 150px;
 }
+/*.p_num{
+    border-color: rgb(66, 107, 243);
+    width: 80px;
+}*/
 .send{
     width:80px;
     border-radius: 10px;
-    background-color: rgb(70, 204, 228);
+    background-color: rgb(66, 107, 243);
+    color: white;
+    margin-top: 2px;
+}
+.add{
+    color: white;
+    background-color: rgb(66, 107, 243);
+    border-radius: 5px;
+}
+.opt{
+    display: block;
+    text-align: center;
 }
