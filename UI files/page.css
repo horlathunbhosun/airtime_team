@@ -10,6 +10,7 @@ img{
 }
 .arrow{
     margin-right: 60px;
+    color: rgb(92, 175, 253);
 }
 .brac{
     float: right;
@@ -18,7 +19,7 @@ img{
 }
 .one{
     display: flex;
-    margin-left: 25px;
+    flex-direction: row;
     text-align: center;
 }
 hr{
@@ -29,30 +30,39 @@ hr{
     margin: 0rem 0.5rem 0rem 0.5rem;
 }
 .name{
-    margin-left: 20px;
+    margin-left: 5px;
 }
 .price{
-    border-color: rgb(66, 107, 243);
-    width: 80px;
-    margin-left: 150px;
+    border-color: rgb(92, 175, 253);
+    /*width: 10px;*/
+    margin-left: 10px;
+}
+.telp,.num{
+    border-color: rgb(92, 175, 253);
+    /*width: 10px;*/
+    margin-left: 5px;
 }
 /*.p_num{
     border-color: rgb(66, 107, 243);
     width: 80px;
 }*/
-.send{
-    width:80px;
-    border-radius: 10px;
-    background-color: rgb(66, 107, 243);
-    color: white;
-    margin-top: 2px;
+.opt{
+    display: flex;
 }
-.add{
-    color: white;
-    background-color: rgb(66, 107, 243);
+.opt a{
+    width: 10px;
+	padding: 0.5em 3em;
+	color:white;
+	background-color: rgb(92, 175, 253);
+	text-decoration: none;
+    text-transform: uppercase;
+}
+.first{
     border-radius: 5px;
 }
-.opt{
-    display: block;
-    text-align: center;
+.second{
+    border-radius: 5px;
+}
+.paysection{
+    align-items: center;
 }
