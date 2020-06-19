@@ -1,3 +1,5 @@
+
+
 body{
     width: 500px;
     margin: auto;
@@ -18,8 +20,8 @@ img{
     margin-top: 10px;
 }
 .one{
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     text-align: center;
 }
 hr{
@@ -49,20 +51,24 @@ hr{
 .opt{
     display: flex;
 }
-.opt a{
-    width: 10px;
+.opt button{
+    /*width: 10px;*/
 	padding: 0.5em 3em;
 	color:white;
 	background-color: rgb(92, 175, 253);
 	text-decoration: none;
     text-transform: uppercase;
+    margin-top: 5px;
 }
 .first{
     border-radius: 5px;
+    margin-left: 80px;
 }
 .second{
     border-radius: 5px;
+    margin-left: 15px;
 }
 .paysection{
     align-items: center;
 }
+

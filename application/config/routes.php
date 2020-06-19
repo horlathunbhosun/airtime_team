@@ -194,7 +194,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $route['default_controller'] = 'airtime';
 
-$route['trend'] = 'admin_ikash/trend';
+$route['send'] = 'airtime/send';
 
 $route['logout'] = 'user/logout';
 
